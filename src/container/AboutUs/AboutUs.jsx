@@ -14,7 +14,7 @@ const AboutUs = () => (
 
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
-        <h1 className="headtext__cormorant">Sobre Nós</h1>
+        <h1 className="headtext__cormorant">Sobre Nóss</h1>
         <img src={images.spoon} alt="colher_sobre" className="spoon__img" />
         <p className="p__opensans">
           Somos apaixonados por criar experiências inesquecíveis. Com foco em

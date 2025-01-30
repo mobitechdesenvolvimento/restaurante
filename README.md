@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Restaurante - Aplicativo Web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto de um site para um restaurante desenvolvido em React. O objetivo é fornecer uma experiência interativa e moderna para os clientes acessarem o cardápio, realizarem pedidos e obterem informações sobre o estabelecimento.
 
-## Available Scripts
+## Tecnologias Utilizadas
 
-In the project directory, you can run:
+- **React**: Biblioteca principal para a construção da interface do usuário.
+- **React Router**: Para gerenciar a navegação entre as páginas do site.
+- **Tailwind CSS**: Para estilização moderna e responsiva.
+- **Context API**: Para gerenciamento de estado global.
+- **Firebase** (opcional): Para autenticação e armazenamento de dados.
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Exibição do cardápio com categorias de pratos.
+- Sistema de pedidos online.
+- Informações sobre o restaurante (horários, localização, contato).
+- Responsividade para dispositivos móveis e desktop.
+- Animações suaves para melhorar a experiência do usuário.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Como Executar o Projeto
 
-### `npm test`
+1. Clone o repositório:
+   ```sh
+   git clone https://github.com/mobitechdesenvolvimento/restaurante.git
+   ```
+2. Acesse a pasta do projeto:
+   ```sh
+   cd restaurante
+   ```
+3. Instale as dependências:
+   ```sh
+   npm install
+   ```
+4. Inicie o servidor de desenvolvimento:
+   ```sh
+   npm start
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Estrutura do Projeto
 
-### `npm run build`
+```
+/restaurante-web
+  |-- public/
+  |-- src/
+      |-- assets/
+      |-- components/
+      |-- constants/
+      |-- container/
+  |-- package.json
+  |-- tailwind.config.js
+  |-- README.md
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Melhorias Futuras
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Implementar um sistema de reservas online.
+- Adicionar integração com sistemas de pagamento.
+- Criar um painel administrativo para gestão do cardápio e pedidos.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Licença
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto é de uso pessoal e não possui uma licença definida.
